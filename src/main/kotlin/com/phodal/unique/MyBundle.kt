@@ -1,4 +1,4 @@
-package com.github.phodal.unique
+package com.phodal.unique
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

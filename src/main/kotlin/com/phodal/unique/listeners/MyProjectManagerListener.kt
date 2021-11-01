@@ -1,9 +1,9 @@
-package com.github.phodal.unique.listeners
+package com.phodal.unique.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.phodal.unique.services.MyProjectService
+import com.phodal.unique.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
