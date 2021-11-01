@@ -2,6 +2,7 @@ package com.phodal.unique.lang
 
 import com.intellij.openapi.fileTypes.LanguageFileType
 import com.intellij.openapi.vfs.VirtualFile
+import icons.UniqueIcons
 import javax.swing.Icon
 
 

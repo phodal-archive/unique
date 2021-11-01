@@ -1,4 +1,4 @@
-package com.phodal.unique.lang
+package icons
 
 import com.intellij.openapi.util.IconLoader
 
