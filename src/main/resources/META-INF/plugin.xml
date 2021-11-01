@@ -10,8 +10,10 @@
         <applicationService serviceImplementation="com.phodal.unique.services.MyApplicationService"/>
         <projectService serviceImplementation="com.phodal.unique.services.MyProjectService"/>
 
-        <fileType name="concept File" implementationClass="com.phodal.unique.ConceptFileType" fieldName="INSTANCE"
-                  language="Concept" extensions="concept"/>
+        <fileType name="Unique" implementationClass="com.phodal.unique.lang.UniqueFileType" fieldName="INSTANCE"
+                  language="Unique" extensions="uql"/>
+
+        <lang.parserDefinition language="Unique" implementationClass="com.intellij.openapi.fileTypes.PlainTextParserDefinition"/>
     </extensions>
 
     <applicationListeners>
