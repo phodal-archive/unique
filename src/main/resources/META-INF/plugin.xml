@@ -10,8 +10,8 @@
         <applicationService serviceImplementation="com.phodal.unique.services.MyApplicationService"/>
         <projectService serviceImplementation="com.phodal.unique.services.MyProjectService"/>
 
-<!--        <fileType name="Concept File" implementationClass="com.intellij.openapi.fileTypes.PlainTextFileType" fieldName="INSTANCE"-->
-<!--              language="CSV" extensions="concept"/>-->
+        <fileType name="concept File" implementationClass="com.phodal.unique.ConceptFileType" fieldName="INSTANCE"
+                  language="Concept" extensions="concept"/>
     </extensions>
 
     <applicationListeners>
